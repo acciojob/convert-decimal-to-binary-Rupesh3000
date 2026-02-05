@@ -1,5 +1,6 @@
 function decimalToBinary(num) {
-  if (num <= 0) return 0;
+    if (num === 0) return "0";  // Return string "0" when input is 0
+  if (num < 0) return "0"; 
   // your code here]
 
   let ans = [];
